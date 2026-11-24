@@ -1,0 +1,1 @@
+try{if(window.caches)caches.keys().then(function(k){k.forEach(function(x){caches.delete(x)})})}catch(e){}try{if(!sessionStorage.getItem('qhr_s')){sessionStorage.setItem('qhr_s','1');var u=location.href.split('#');location.replace(u[0].split('?')[0]+'?_r='+Date.now()+(u[1]?'#'+u[1]:''))}}catch(e){location.reload()}
